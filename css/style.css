@@ -3,6 +3,7 @@ body {
   height: 100vh;
   background-image: url("../img/light/circle-scatter-haikei.svg");
   background-size: cover;
+  overflow: hidden;
 }
 
 .container {
