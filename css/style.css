@@ -1,0 +1,80 @@
+body {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/light/circle-scatter-haikei.svg");
+  background-size: cover;
+}
+
+.container {
+  background-color: #fdfdfd;
+}
+
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 991px) {
+  body .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container img {
+    display: none !important;
+  }
+}
+
+ul {
+  background-color: #fefefe !important;
+}
+
+a {
+  color: #121212 !important;
+}
+
+a:hover {
+  background-color: #121212 !important;
+  color: #fefefe !important;
+}
+
+button {
+  background-color: #fefefe !important;
+  color: #121212 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url("../img/dark/circle-scatter-haikei-dark.svg");
+  }
+
+  .container {
+    background-color: #121212 !important;
+  }
+
+  ul {
+    background-color: #141414 !important;
+  }
+
+  a {
+    color: #fdfdfd !important;
+  }
+
+  a:hover {
+    background-color: #fefefe !important;
+    color: #121212 !important;
+  }
+
+  button {
+    background-color: #121212 !important;
+    color: #fefefe !important;
+  }
+
+  #mydiv {
+    color: #fefefe !important;
+  }
+}
