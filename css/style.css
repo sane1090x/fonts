@@ -43,6 +43,16 @@ a:hover {
   color: #fefefe !important;
 }
 
+img {
+  object-position: center;
+  object-fit: cover;
+}
+
+.blur-load {
+  background-size: cover;
+  background-position: center;
+}
+
 button {
   background-color: #fefefe !important;
   color: #121212 !important;
@@ -68,6 +78,10 @@ button {
   a:hover {
     background-color: #fefefe !important;
     color: #121212 !important;
+  }
+
+  .blur-load {
+    background-image: url(img/dark/scr-dark-small.png) !important;
   }
 
   button {
